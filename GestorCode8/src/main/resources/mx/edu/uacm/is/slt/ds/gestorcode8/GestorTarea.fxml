@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="477.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.uacm.is.slt.ds.gestorcode8.GestorTareaController">
+   <children>
+      <Pane prefHeight="526.0" prefWidth="477.0" styleClass="Vbox1" stylesheets="@gestortarea.css">
+         <children>
+            <ImageView fitHeight="116.0" fitWidth="379.0" layoutX="182.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ChatGPT%20Image%2020%20may%202026,%2014_29_39.png" />
+               </image>
+            </ImageView>
+            <MenuBar layoutX="1.0" layoutY="1.0" prefHeight="26.0" prefWidth="477.0">
+              <menus>
+                <Menu fx:id="btnGestor" mnemonicParsing="false" onAction="#GestorTarea" text="Gestor tarea">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Registrar tarea" />
+                        <MenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Gestor operacion">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Acerca de">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
